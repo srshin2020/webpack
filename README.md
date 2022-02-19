@@ -7,7 +7,7 @@
 - https://www.youtube.com/watch?v=zal9HVgrMaQ
     - 코딩앙마
 
-### get starte
+### get started
 - npm 설치
     - npm init -y
 - webpack 설치
@@ -15,18 +15,25 @@
     - i = install
     - npm install -D webpack webpack-cli
 - css loader 설치
-    - npm install --save-dev css-loader ts-loader 
+    - npm install --save-dev css-loader
 - style loader 설치
     - npm install --save-dev style-loader
 - web html 만드는 plugin 설치
     - npm i html-webpack-plugin
 - 실시간 반영 서버 설치 
     - npm i webpack-dev-server -D
-- webpack config를 읽어서 webpack 실행
-    - npx webpack --config webpack.config.js (--config 생략 가능)
-- 다시 실행하지 않고도 바로 반영
+- 외부 CSS로 연결시 설치 (default는 internal로 style tag로 들어감)
+    - npm i mini-css-extract-plugin -D 
+- 이미지 로더
+    - npm i -D file-loader
+### 실행
+- webpack 실행 (webpack config를 읽어서)
+    - npx webpack --config webpack.config.js
+- webpack 실행 (webpack config 생략 가능 webpack.config.js인 경우)
+    - npx webpack 
+- 수정시 실시간 바로 반영
     - npx webpack --watch 
-- 실행
-    - npm run start 또는 npm start
-    - npm run build 
+- npm script를 이용해서 실행
+    - npm run start 또는 npm start (mode=development)
+    - npm run build (mode=production)
     - npm run test 또는 npm test     
