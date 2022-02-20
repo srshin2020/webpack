@@ -30,6 +30,8 @@
 - 이전 빌드된 것들 삭제
     - npm i -D clean-webpack-plugin 
 ### 실행
+- webpack.config.js
+    - webpack 실행시 참조하는 설정 파일 
 - webpack 실행 (webpack config를 읽어서)
     - npx webpack --config webpack.config.js
 - webpack 실행 (webpack config 생략 가능 webpack.config.js인 경우)
