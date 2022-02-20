@@ -26,6 +26,8 @@
     - npm i mini-css-extract-plugin -D 
 - 이미지 로더
     - npm i -D file-loader
+- 이전 빌드된 것들 삭제
+    - npm i -D clean-webpack-plugin 
 ### 실행
 - webpack 실행 (webpack config를 읽어서)
     - npx webpack --config webpack.config.js
@@ -36,4 +38,5 @@
 - npm script를 이용해서 실행
     - npm run start 또는 npm start (mode=development)
     - npm run build (mode=production)
+        - output에 설정된 폴더에 묶여진 파일이 올라감. js, css, image file들.. 
     - npm run test 또는 npm test     
