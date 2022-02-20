@@ -6,7 +6,8 @@ module.exports = {
     //개발용 또는 상용(production )
     // mode:  'development',
     //debugging시 source level로 
-    devtool: 'eval-source-map',
+    //devtool: 'eval-source-map',
+    devtool: 'source-map',
     // 시작정
     entry: './source/index.js',
     //key value 형태로 설정할 수도 있음
