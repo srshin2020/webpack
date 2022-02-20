@@ -1,0 +1,18 @@
+.topic {
+    height: 24px;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #333;
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    height: 1em;
+    margin-right: 10px;
+}

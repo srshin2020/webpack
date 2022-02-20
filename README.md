@@ -6,6 +6,7 @@
     - 생활코딩
 - https://www.youtube.com/watch?v=zal9HVgrMaQ
     - 코딩앙마
+    - 소스코드: https://github.com/coding-angma/webpack
 
 ### get started
 - npm 설치
